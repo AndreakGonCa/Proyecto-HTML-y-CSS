@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Sanos y Peludos - Presupuesto</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Página de venta de pastelería canina, un mundo saludable para tu peludo">
+		<meta name="robots" content="index,follow">
+		<meta name="Author" content="Andrea González">
+		<meta name="locality" content="España">
+		<meta name="revisit-after" content="7 days">
+		<meta name="category" content="Pastelería canina">
+		<link rel="icon" type="image/png" href="../Favicon.png">
+		<link rel="stylesheet" href="../CSS/estilos.css">
+	</head>
+	<body>
+		<header>
+			<img src="../assets/imagenes/Logotipo.png" alt="Logotipo de Sanos y Peludos" class="Logo"
+			width="759" height="303">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a class="active" href="#">Presupuesto</a></li>
+                    <li><a href="./contacto.html">Contáctenos</a></li>
+                </ul>
+            </nav>
+		</header>
+		<div class="formulario_general">
+			<p class="p_form">Coméntanos como deseas tu pastel, muffins o donuts y con gusto nos contactarémos contigo!</p>
+			<form id="miPresupuesto" name="miPresupuesto" action="#" method="get" target="_self">
+				<ul class="formulario_presupuesto">
+					<li>
+						<label for="full-name">Nombre</label>
+						<input type="text" id="full-name" name="full-name" placeholder="Escriba su nombre completo"
+						pattern="[A-Z a-z]{3,30}" required>
+					</li>
+					<li>
+						<label for="email">Correo electrónico</label>
+						<input type="email" id="email" name="email" placeholder="Escriba su correo electrónico"
+						pattern="[a-zA-Z0-9_-.]+@[a-z0-9._-]+\.[a-z]{2,4}" required>
+					</li>
+					<li>
+						<label for="phone">Teléfono</label>
+						<input type="tel" id="phone" name="phone" placeholder="Escriba su número telefónico"
+						pattern="[0-9]{9}"	required>
+					</li>
+					<li>
+						<label for="information">Como quieres tu pedido</label>
+						<textarea cols="40" rows="10" id="informacion" name="informacion"
+						placeholder="Escribe detalladamente como deseas tu torta"></textarea>						
+					</li>
+					<li>
+						<p>Acepta la Política de privacidad de la empresa</p>
+						<input type="checkbox" id="casilla" name="casilla" value="Acepta la Política de privacidad de la empresa"
+							required>
+					</li>
+					<li class="liButtons">
+						<button type="submit"> Enviar </button>											
+					</li>
+ 
+
+				</ul>
+				
+			</form>
+		</div>
+		<footer>
+			<p>Encuéntranos en</p>
+
+			<nav>
+				<a href="https://www.facebook.com/"><img src="../assets/imagenes/facebook.png" alt="Facebook" class="img_piepagina"></a></li>
+				<a href="https://www.instagram.com/"><img src="../assets/imagenes/instagram.jpeg" alt="Instagram" class="img_piepagina"></a></li>
+				<a href="https://www.whatsapp.com/?lang=es_LA"><img src="../assets/imagenes/Whatsapp.png" alt="Whatsapp" class="img_piepagina"></a></li>
+			</nav>
+			<p>Dirección: CL Valencia, 79-81, BARCELONA, 08029</p>	
+
+			<nav><a href="../views/avisolegal.html">Aviso Legal</a> </nav>
+			<p>&copy; Todos los derechos reservados</p>
+
+		</footer>
+	
+	</body>
+</html>
